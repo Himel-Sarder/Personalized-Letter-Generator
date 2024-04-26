@@ -35,6 +35,48 @@ The Personalized Letter Generator is a Python script that automates the process 
 
 - Python 3.x
 
+# Python File Handling( readlines(), strip(), replace() )     
+
+### 1. `readlines()`
+The `readlines()` method reads all lines from the file and returns them as a list of strings.
+
+```python
+with open("example.txt", "r") as file:
+    lines = file.readlines()
+    print(lines)
+```
+
+### 2. `strip()`
+The `strip()` method removes leading and trailing whitespace (including newline characters) from a string.
+
+```python
+line = "   Hi ! I am Himel   \n"
+stripped_line = line.strip()
+print(stripped_line)  # Output: "Hi ! I am Himel"
+```
+
+### 3. `replace()`
+The `replace()` method replaces occurrences of a specified substring with another string.
+
+```python
+text = "Hello, [NAME]! How are you, [NAME]?"
+new_text = text.replace("[NAME]", "Himel")
+print(new_text)  # Output: "Hello, Himel! How are you, Himel?"
+```
+
+### Example: Reading a File, Stripping, and Replacing
+```python
+# Read lines from a file, strip whitespace, and replace placeholders
+with open("example.txt", "r") as file:
+    lines = file.readlines()
+    for line in lines:
+        stripped_line = line.strip()  # Strip leading/trailing whitespace
+        replaced_line = stripped_line.replace("[NAME]", "Himel")  # Replace placeholders
+        print(replaced_line)
+```
+
+This example reads lines from a file, strips whitespace, and replaces placeholders (`[NAME]`) with a specific name ("Himel"). 
+
 ## Contributing
 
 Contributions to the Personalized Letter Generator are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
