@@ -1,4 +1,5 @@
 # Personalized Letter Generator
+![image](https://github.com/Himel-Sarder/Personalized-Letter-Generator/assets/143216886/9d6e22e1-0b22-4449-a8d6-634c8f869a93)
 
 ## Overview
 
@@ -37,7 +38,11 @@ The Personalized Letter Generator is a Python script that automates the process 
 ## Contributing
 
 Contributions to the Personalized Letter Generator are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
-
+## Coder   
+Coded by -
+- Himel Sarder
+- Dept. of CSE, BSFMSTU, Bangladesh
+- gmail : info.himelcse@gmail.com   
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
