@@ -1,4 +1,9 @@
+# Mail Marge Project
 
+# Himel Sarder
+# Dept. of CSE, BSFMSTU, Bangladesh
+# gmail : info.himelcse@gmail.com
+# Linkedin : Himel Sarder
 
 with open("Containers/Names_container.txt") as Name_File:
     Name = Name_File.readlines()
